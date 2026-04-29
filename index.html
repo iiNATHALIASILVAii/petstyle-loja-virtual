@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>Pet&Style</title>
+  </head>
+
+  <body class="bg-orange-50 text-gray-800">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <div
+        class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4"
+      >
+        <h1 class="text-2xl font-bold text-orange-500">Pet&Style 🐾</h1>
+
+        <nav>
+          <ul class="flex gap-6 font-medium">
+            <li><a href="#home" class="hover:text-orange-500">Início</a></li>
+            <li>
+              <a href="#produtos" class="hover:text-orange-500">Produtos</a>
+            </li>
+            <li>
+              <a href="#depoimentos" class="hover:text-orange-500"
+                >Depoimentos</a
+              >
+            </li>
+            <li>
+              <a href="#contato" class="hover:text-orange-500">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="home"
+        class="max-w-6xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 gap-10 items-center"
+      >
+        <div class="text-center md:text-left">
+          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+            Estilo e conforto para o seu melhor amigo
+          </h2>
+
+          <p class="text-lg text-gray-600 mb-6">
+            Na Pet&Style você encontra produtos modernos, confortáveis e cheios
+            de personalidade para deixar seu pet ainda mais estiloso.
+          </p>
+
+          <a
+            href="#produtos"
+            class="inline-block bg-orange-500 text-white font-bold px-6 py-3 rounded-full hover:bg-orange-600 transition"
+          >
+            Ver produtos
+          </a>
+        </div>
+
+        <img
+          src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=900&q=80"
+          alt="Cachorro estiloso"
+          class="rounded-3xl shadow-lg w-full h-80 object-cover"
+        />
+      </section>
+
+      <section id="produtos" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-4">
+          <h2 class="text-3xl font-bold text-center mb-10">
+            Produtos em destaque
+          </h2>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div
+              class="bg-orange-50 rounded-2xl shadow-md overflow-hidden hover:scale-105 transition"
+            >
+              <img
+                src="https://images.pexels.com/photos/18807965/pexels-photo-18807965.jpeg"
+                alt="Caminha pet"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">Caminha Nuvem</h3>
+                <p class="text-gray-600 mb-3">
+                  Confortável, macia e perfeita para cochilos estilosos.
+                </p>
+                <p class="font-bold text-orange-500">R$ 129,90</p>
+              </div>
+            </div>
+
+            <div
+              class="bg-orange-50 rounded-2xl shadow-md overflow-hidden hover:scale-105 transition"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?auto=format&fit=crop&w=600&q=80"
+                alt="Brinquedo pet"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">Brinquedo Mordedor</h3>
+                <p class="text-gray-600 mb-3">
+                  Diversão garantida para cães cheios de energia.
+                </p>
+                <p class="font-bold text-orange-500">R$ 39,90</p>
+              </div>
+            </div>
+
+            <div
+              class="bg-orange-50 rounded-2xl shadow-md overflow-hidden hover:scale-105 transition"
+            >
+              <img
+                src="https://images.pexels.com/photos/35087634/pexels-photo-35087634.jpeg"
+                alt="Coleira pet"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">Coleira Fashion</h3>
+                <p class="text-gray-600 mb-3">
+                  Acessório moderno para passeios com muito charme.
+                </p>
+                <p class="font-bold text-orange-500">R$ 59,90</p>
+              </div>
+            </div>
+
+            <div
+              class="bg-orange-50 rounded-2xl shadow-md overflow-hidden hover:scale-105 transition"
+            >
+              <img
+                src="https://images.pexels.com/photos/37110810/pexels-photo-37110810.jpeg"
+                alt="Gato com acessório"
+                class="w-full h-48 object-cover"
+              />
+              <div class="p-4">
+                <h3 class="text-xl font-bold mb-2">Kit Estilo Pet</h3>
+                <p class="text-gray-600 mb-3">
+                  Combo especial com acessórios para pets estilosos.
+                </p>
+                <p class="font-bold text-orange-500">R$ 89,90</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="depoimentos" class="py-16 bg-orange-100">
+        <div class="max-w-6xl mx-auto px-4">
+          <h2 class="text-3xl font-bold text-center mb-10">
+            O que nossos clientes dizem
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-md">
+              <p class="text-gray-600 mb-4">
+                “Meu cachorro amou a caminha. Agora ele dorme igual um rei!”
+              </p>
+              <h3 class="font-bold text-orange-500">— Mariana Souza</h3>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-md">
+              <p class="text-gray-600 mb-4">
+                “Produtos lindos, entrega rápida e atendimento maravilhoso.”
+              </p>
+              <h3 class="font-bold text-orange-500">— Lucas Ferreira</h3>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-md">
+              <p class="text-gray-600 mb-4">
+                “Minha gata ficou ainda mais charmosa com os acessórios.”
+              </p>
+              <h3 class="font-bold text-orange-500">— Camila Rocha</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="py-16 bg-white">
+        <div
+          class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10"
+        >
+          <div>
+            <h2 class="text-3xl font-bold mb-4">Entre em contato</h2>
+            <p class="text-gray-600 mb-4">
+              Quer saber mais sobre nossos produtos? Fale com a gente!
+            </p>
+
+            <p class="mb-2"><strong>Email:</strong> contato@petstyle.com</p>
+            <p><strong>Telefone:</strong> (44) 99999-9999</p>
+          </div>
+
+          <form
+            class="bg-orange-50 p-6 rounded-2xl shadow-md flex flex-col gap-4"
+          >
+            <input
+              type="text"
+              placeholder="Seu nome"
+              class="p-3 rounded-lg border border-gray-300 focus:outline-orange-500"
+            />
+            <input
+              type="email"
+              placeholder="Seu e-mail"
+              class="p-3 rounded-lg border border-gray-300 focus:outline-orange-500"
+            />
+            <textarea
+              placeholder="Sua mensagem"
+              rows="4"
+              class="p-3 rounded-lg border border-gray-300 focus:outline-orange-500"
+            ></textarea>
+
+            <button
+              type="submit"
+              class="bg-orange-500 text-white font-bold py-3 rounded-lg hover:bg-orange-600 transition"
+            >
+              Enviar mensagem
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white text-center py-6">
+      <p>&copy; 2026 Pet&Style. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
